@@ -6,24 +6,53 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <androidx.appcompat.widget.SearchView
+    <androidx.cardview.widget.CardView
         android:id="@+id/searchView"
-        android:layout_width="250dp"
-        android:layout_height="30dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="36dp"
-        android:background="#BFBEBE"
-        android:foregroundGravity="center"
-        android:theme="@style/CardView.Dark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        app:cardCornerRadius="20sp"
+        app:cardElevation="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/horizontalScrollView"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginLeft="16dp" />
+        app:layout_constraintTop_toTopOf="parent">
+
+        <SearchView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="-350dp"
+                android:hint="SEARCH RECIPE" />
+        </SearchView>
+
+    </androidx.cardview.widget.CardView>
+
+<!--    <androidx.appcompat.widget.SearchView-->
+<!--        android:id="@+id/searchView"-->
+<!--        android:layout_width="250dp"-->
+<!--        android:layout_height="30dp"-->
+<!--        android:layout_marginStart="16dp"-->
+<!--        android:layout_marginLeft="16dp"-->
+<!--        android:layout_marginTop="36dp"-->
+<!--        android:background="#BFBEBE"-->
+<!--        android:foregroundGravity="center"-->
+<!--        android:theme="@style/CardView.Dark"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
 
     <HorizontalScrollView
         android:id="@+id/horizontalScrollView"
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="20dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/searchView">
 
@@ -37,97 +66,105 @@
                 android:id="@+id/button1"
                 android:layout_width="100dp"
                 android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:background="@color/yellow"
                 android:clickable="true"
+                android:focusable="true"
                 android:soundEffectsEnabled="true"
                 android:text="Veg"
-                android:background="#B7F8F2"
-                android:layout_margin="5dp"
-                android:focusable="true"
-                android:layout_gravity="center" />
+                android:elevation="10sp"/>
 
             <Button
                 android:id="@+id/button2"
                 android:layout_width="100dp"
                 android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:background="@color/yellow"
                 android:clickable="true"
+                android:focusable="true"
                 android:soundEffectsEnabled="true"
                 android:text="Non-veg"
-                android:background="#B7F8F2"
-                android:layout_margin="5dp"
-                android:focusable="true"
-                android:layout_gravity="center" />
+                android:elevation="10sp"/>
 
             <Button
                 android:id="@+id/button3"
                 android:layout_width="100dp"
                 android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:background="@color/yellow"
                 android:clickable="true"
+                android:focusable="true"
                 android:soundEffectsEnabled="true"
                 android:text="Cuisin"
-                android:background="#B7F8F2"
-                android:layout_margin="5dp"
-                android:focusable="true"
-                android:layout_gravity="center" />
+                android:elevation="10sp"/>
 
             <Button
                 android:id="@+id/button4"
                 android:layout_width="100dp"
                 android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:background="@color/yellow"
                 android:clickable="true"
+                android:focusable="true"
                 android:soundEffectsEnabled="true"
                 android:text="Time"
-                android:background="#B7F8F2"
-                android:layout_margin="5dp"
-                android:focusable="true"
-                android:layout_gravity="center" />
+                android:elevation="10sp"/>
 
             <Button
                 android:id="@+id/button5"
                 android:layout_width="100dp"
                 android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:background="@color/yellow"
                 android:clickable="true"
+                android:focusable="true"
                 android:soundEffectsEnabled="true"
                 android:text="Breakfast"
-                android:background="#B7F8F2"
-                android:layout_margin="5dp"
-                android:focusable="true"
-                android:layout_gravity="center"/>
+                android:elevation="10sp"/>
 
             <Button
                 android:id="@+id/button6"
                 android:layout_width="100dp"
                 android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:background="@color/yellow"
                 android:clickable="true"
+                android:focusable="true"
                 android:soundEffectsEnabled="true"
                 android:text="new_button6"
-                android:background="#B7F8F2"
-                android:layout_margin="5dp"
-                android:focusable="true"
-                android:layout_gravity="center" />
+                android:elevation="10sp"/>
 
             <Button
                 android:id="@+id/button7"
                 android:layout_width="100dp"
                 android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:background="@color/yellow"
                 android:clickable="true"
+                android:focusable="true"
                 android:soundEffectsEnabled="true"
                 android:text="new_button7"
-                android:background="#B7F8F2"
-                android:layout_margin="5dp"
-                android:focusable="true"
-                android:layout_gravity="center" />
+                android:elevation="10sp"/>
 
             <Button
                 android:id="@+id/button8"
                 android:layout_width="100dp"
                 android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:background="@color/yellow"
                 android:clickable="true"
+                android:focusable="true"
                 android:soundEffectsEnabled="true"
                 android:text="new_button8"
-                android:background="#B7F8F2"
-                android:layout_margin="5dp"
-                android:focusable="true"
-                android:layout_gravity="center" />
+                android:elevation="10sp"/>
         </LinearLayout>
 
     </HorizontalScrollView>
@@ -135,14 +172,14 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="160dp"
         android:layout_marginLeft="10dp"
+        android:layout_marginTop="160dp"
         android:layout_marginRight="10dp"
         android:layout_marginBottom="60dp"
         android:fillViewport="false"
+        android:outlineSpotShadowColor="@color/colorAccent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="-16dp"
-        android:outlineSpotShadowColor="@color/colorAccent">
+        tools:layout_editor_absoluteX="-16dp">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -155,11 +192,12 @@
                 android:layout_height="200dp"
                 android:layout_gravity="start"
                 android:layout_marginStart="30dp"
+                android:layout_marginLeft="30dp"
                 android:layout_marginTop="20dp"
-                app:cardCornerRadius="20dp"
                 android:outlineSpotShadowColor="@color/cardview_dark_background"
-                app:cardBackgroundColor="#f1f1f1"
-                android:layout_marginLeft="30dp">
+                app:cardBackgroundColor="#D8BDFF"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="20sp">
 
                 <ImageView
                     android:id="@+id/card1Img"
@@ -167,16 +205,17 @@
                     android:layout_height="150dp"
                     android:layout_gravity="top"
                     android:layout_marginStart="0dp"
+                    android:layout_marginLeft="0dp"
                     android:layout_marginTop="10dp"
-                    android:src="@drawable/burgerr"
                     android:contentDescription="Burger"
-                    android:layout_marginLeft="0dp" />
+                    android:src="@drawable/burgerr" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_marginTop="160dp"
                     android:fontFamily="@font/aladin"
+                    android:textColor="@color/purple"
                     android:gravity="center_horizontal"
                     android:text="Burger"
                     android:textAlignment="center"
@@ -191,9 +230,10 @@
                 android:layout_gravity="end"
                 android:layout_marginTop="-200dp"
                 android:layout_marginEnd="30dp"
+                android:layout_marginRight="30dp"
+                app:cardBackgroundColor="#D8BDFF"
                 app:cardCornerRadius="20dp"
-                app:cardBackgroundColor="#f1f1f1"
-                android:layout_marginRight="30dp">
+                app:cardElevation="20sp">
 
                 <ImageView
                     android:id="@+id/card2Img"
@@ -201,21 +241,22 @@
                     android:layout_height="150dp"
                     android:layout_gravity="top"
                     android:layout_marginStart="0dp"
+                    android:layout_marginLeft="0dp"
                     android:layout_marginTop="10dp"
-                    android:outlineSpotShadowColor="@color/colorAccent"
-                    android:src="@drawable/pizzaa"
                     android:contentDescription="Pizza"
-                    android:layout_marginLeft="0dp" />
+                    android:outlineSpotShadowColor="@color/colorAccent"
+                    android:src="@drawable/pizzaa" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_marginTop="160dp"
                     android:fontFamily="@font/aladin"
+                    android:textColor="@color/purple"
+                    android:gravity="center_horizontal"
                     android:text="CheesePizza"
                     android:textAlignment="center"
-                    android:textSize="30sp"
-                    android:gravity="center_horizontal" />
+                    android:textSize="30sp" />
 
             </androidx.cardview.widget.CardView>
 
@@ -225,10 +266,11 @@
                 android:layout_height="200dp"
                 android:layout_gravity="start"
                 android:layout_marginStart="30dp"
+                android:layout_marginLeft="30dp"
                 android:layout_marginTop="40dp"
+                app:cardBackgroundColor="#D8BDFF"
                 app:cardCornerRadius="20dp"
-                app:cardBackgroundColor="#f1f1f1"
-                android:layout_marginLeft="30dp">
+                app:cardElevation="20sp">
 
                 <ImageView
                     android:id="@+id/card3Img"
@@ -236,21 +278,22 @@
                     android:layout_height="150dp"
                     android:layout_gravity="top"
                     android:layout_marginStart="0dp"
+                    android:layout_marginLeft="0dp"
                     android:layout_marginTop="10dp"
-                    android:outlineSpotShadowColor="@color/colorAccent"
-                    android:src="@drawable/friess"
                     android:contentDescription="Fries"
-                    android:layout_marginLeft="0dp" />
+                    android:outlineSpotShadowColor="@color/colorAccent"
+                    android:src="@drawable/friess" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_marginTop="160dp"
                     android:fontFamily="@font/aladin"
+                    android:textColor="@color/purple"
+                    android:gravity="center_horizontal"
                     android:text="Fries"
                     android:textAlignment="center"
-                    android:textSize="30sp"
-                    android:gravity="center_horizontal" />
+                    android:textSize="30sp" />
 
             </androidx.cardview.widget.CardView>
 
@@ -261,9 +304,10 @@
                 android:layout_gravity="end"
                 android:layout_marginTop="-200dp"
                 android:layout_marginEnd="30dp"
+                android:layout_marginRight="30dp"
+                app:cardBackgroundColor="#D8BDFF"
                 app:cardCornerRadius="20dp"
-                app:cardBackgroundColor="#f1f1f1"
-                android:layout_marginRight="30dp">
+                app:cardElevation="20sp">
 
                 <ImageView
                     android:id="@+id/card4Img"
@@ -271,21 +315,22 @@
                     android:layout_height="150dp"
                     android:layout_gravity="top"
                     android:layout_marginStart="0dp"
+                    android:layout_marginLeft="0dp"
                     android:layout_marginTop="10dp"
-                    android:outlineSpotShadowColor="@color/colorAccent"
-                    android:src="@drawable/quinoasalad"
                     android:contentDescription="Quino Salad"
-                    android:layout_marginLeft="0dp" />
+                    android:outlineSpotShadowColor="@color/colorAccent"
+                    android:src="@drawable/quinoasalad" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_marginTop="160dp"
                     android:fontFamily="@font/aladin"
+                    android:textColor="@color/purple"
+                    android:gravity="center_horizontal"
                     android:text="Quino salad"
                     android:textAlignment="center"
-                    android:textSize="30sp"
-                    android:gravity="center_horizontal" />
+                    android:textSize="30sp" />
 
             </androidx.cardview.widget.CardView>
 
@@ -295,11 +340,12 @@
                 android:layout_height="200dp"
                 android:layout_gravity="start"
                 android:layout_marginStart="30dp"
+                android:layout_marginLeft="30dp"
                 android:layout_marginTop="40dp"
-                app:contentPaddingRight="20dp"
+                app:cardBackgroundColor="#D8BDFF"
                 app:cardCornerRadius="20dp"
-                app:cardBackgroundColor="#f1f1f1"
-                android:layout_marginLeft="30dp">
+                app:contentPaddingRight="20dp"
+                app:cardElevation="20sp">
 
                 <ImageView
                     android:id="@+id/card5Img"
@@ -307,16 +353,17 @@
                     android:layout_height="150dp"
                     android:layout_gravity="top"
                     android:layout_marginStart="5dp"
+                    android:layout_marginLeft="5dp"
                     android:layout_marginTop="10dp"
-                    android:src="@drawable/friedrice"
                     android:contentDescription="Fried Rice"
-                    android:layout_marginLeft="5dp" />
+                    android:src="@drawable/friedrice" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_marginTop="160dp"
                     android:fontFamily="@font/aladin"
+                    android:textColor="@color/purple"
                     android:gravity="center_horizontal"
                     android:text="Fried rice"
                     android:textAlignment="center"
@@ -331,9 +378,10 @@
                 android:layout_gravity="end"
                 android:layout_marginTop="-200dp"
                 android:layout_marginEnd="30dp"
+                android:layout_marginRight="30dp"
+                app:cardBackgroundColor="#D8BDFF"
                 app:cardCornerRadius="20dp"
-                app:cardBackgroundColor="#f1f1f1"
-                android:layout_marginRight="30dp">
+                app:cardElevation="20sp">
 
                 <ImageView
                     android:id="@+id/card6Img"
@@ -341,21 +389,22 @@
                     android:layout_height="150dp"
                     android:layout_gravity="top"
                     android:layout_marginStart="0dp"
+                    android:layout_marginLeft="0dp"
                     android:layout_marginTop="10dp"
-                    android:outlineSpotShadowColor="@color/colorAccent"
-                    android:src="@drawable/crispyzucchinifritters"
                     android:contentDescription="Crispy Zucchini Fritters"
-                    android:layout_marginLeft="0dp" />
+                    android:outlineSpotShadowColor="@color/colorAccent"
+                    android:src="@drawable/crispyzucchinifritters" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_marginTop="160dp"
                     android:fontFamily="@font/aladin"
+                    android:textColor="@color/purple"
+                    android:gravity="center_horizontal"
                     android:text="Crispy Zucchini Fritters"
                     android:textAlignment="center"
-                    android:textSize="18sp"
-                    android:gravity="center_horizontal" />
+                    android:textSize="18sp" />
 
             </androidx.cardview.widget.CardView>
 
@@ -365,11 +414,12 @@
                 android:layout_height="200dp"
                 android:layout_gravity="start"
                 android:layout_marginStart="30dp"
+                android:layout_marginLeft="30dp"
                 android:layout_marginTop="40dp"
-                app:contentPaddingRight="20dp"
+                app:cardBackgroundColor="#D8BDFF"
                 app:cardCornerRadius="20dp"
-                app:cardBackgroundColor="#f1f1f1"
-                android:layout_marginLeft="30dp">
+                app:contentPaddingRight="20dp"
+                app:cardElevation="20sp">
 
                 <ImageView
                     android:id="@+id/card7Img"
@@ -377,20 +427,21 @@
                     android:layout_height="150dp"
                     android:layout_gravity="top"
                     android:layout_marginStart="5dp"
+                    android:layout_marginLeft="5dp"
                     android:layout_marginTop="10dp"
-                    android:src="@drawable/sambar"
                     android:contentDescription="Sambar"
-                    android:layout_marginLeft="5dp" />
+                    android:src="@drawable/sambar" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_marginTop="160dp"
                     android:fontFamily="@font/aladin"
+                    android:textColor="@color/purple"
+                    android:gravity="center_horizontal"
                     android:text="Sambar"
                     android:textAlignment="center"
-                    android:textSize="30sp"
-                    android:gravity="center_horizontal" />
+                    android:textSize="30sp" />
 
             </androidx.cardview.widget.CardView>
 
@@ -401,9 +452,10 @@
                 android:layout_gravity="end"
                 android:layout_marginTop="-200dp"
                 android:layout_marginEnd="30dp"
+                android:layout_marginRight="30dp"
+                app:cardBackgroundColor="#D8BDFF"
                 app:cardCornerRadius="20dp"
-                app:cardBackgroundColor="#f1f1f1"
-                android:layout_marginRight="30dp">
+                app:cardElevation="20sp">
 
                 <ImageView
                     android:id="@+id/card8Img"
@@ -411,21 +463,22 @@
                     android:layout_height="150dp"
                     android:layout_gravity="top"
                     android:layout_marginStart="0dp"
+                    android:layout_marginLeft="0dp"
                     android:layout_marginTop="10dp"
-                    android:outlineSpotShadowColor="@color/colorAccent"
-                    android:src="@drawable/sushi"
                     android:contentDescription="Sushi"
-                    android:layout_marginLeft="0dp" />
+                    android:outlineSpotShadowColor="@color/colorAccent"
+                    android:src="@drawable/sushi" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_marginTop="160dp"
                     android:fontFamily="@font/aladin"
+                    android:textColor="@color/purple"
+                    android:gravity="center_horizontal"
                     android:text="Sushi"
                     android:textAlignment="center"
-                    android:textSize="30sp"
-                    android:gravity="center_horizontal" />
+                    android:textSize="30sp" />
 
             </androidx.cardview.widget.CardView>
 
