@@ -23,7 +23,8 @@
                 android:layout_height="match_parent"
                 app:cardCornerRadius="20sp"
                 app:cardElevation="20sp"
-                android:layout_margin="15dp">
+                android:layout_margin="15dp"
+                app:cardBackgroundColor="@color/purple">
 
 
                 <TextView
@@ -33,8 +34,7 @@
                     android:layout_gravity="center"
                     android:layout_margin="10dp"
                     android:textSize="20dp"
-
-                    android:textColor="@color/black">
+                    android:textColor="@color/white">
 
                 </TextView>
 
@@ -50,16 +50,8 @@
 
                 <SearchView
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent">
-
-
-                    <EditText
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="-350dp"
-                        android:hint="SEARCH PRODUCTS">
-
-                    </EditText>
+                    android:layout_height="match_parent"
+                    android:iconifiedByDefault="false">
 
                 </SearchView>
 
@@ -113,12 +105,11 @@
                         app:cardElevation="20sp"
                         app:cardBackgroundColor="@color/purple">
 
-                       <ImageView
-                           android:layout_width="match_parent"
-                           android:layout_height="match_parent"
-                           android:layout_margin="10dp"
-                           android:src="@drawable/dairy">
-                       </ImageView>
+                        <ImageView
+                            android:layout_width="39dp"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp"
+                            android:src="@drawable/dairy"></ImageView>
 
                     </androidx.cardview.widget.CardView>
 
