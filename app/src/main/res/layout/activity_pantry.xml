@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <androidx.cardview.widget.CardView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
@@ -164,8 +165,6 @@
                     </RelativeLayout>
 
 
-
-
                     <RelativeLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content">
@@ -174,20 +173,20 @@
                         <androidx.cardview.widget.CardView
                             android:layout_width="130dp"
                             android:layout_height="130dp"
-                            app:cardCornerRadius="30dp"
-                            app:cardElevation="20sp"
                             android:layout_margin="12dp"
-                            app:cardBackgroundColor="@color/yellow">
+                            app:cardBackgroundColor="@color/yellow"
+                            app:cardCornerRadius="30dp"
+                            app:cardElevation="20sp">
 
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginLeft="35dp"
-                                android:textSize="20dp"
-                                android:textColor="@color/black"
                                 android:layout_marginTop="60dp"
-                                android:text="FRUITS">
+                                android:text="FRUITS"
+                                android:textColor="@color/black"
+                                android:textSize="20dp">
 
                             </TextView>
 
@@ -197,22 +196,19 @@
                             android:layout_width="60dp"
                             android:layout_height="60dp"
                             android:layout_marginLeft="80dp"
+                            app:cardBackgroundColor="@color/purple"
                             app:cardCornerRadius="20sp"
-                            app:cardElevation="20sp"
-                            app:cardBackgroundColor="@color/purple">
+                            app:cardElevation="20sp">
 
                             <ImageView
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:layout_margin="10dp"
-                                android:src="@drawable/fruits">
-                            </ImageView>
+                                android:src="@drawable/fruits"></ImageView>
 
                         </androidx.cardview.widget.CardView>
 
                     </RelativeLayout>
-
-
 
                     <RelativeLayout
                         android:layout_width="wrap_content"
