@@ -25,7 +25,7 @@ Recipes will be recommended according to the ingredients chosen by user in the a
 
 Recipe Display             |  Recipe Display
 :-------------------------:|:-------------------------:
-![](https://user-images.githubusercontent.com/55665104/92323666-1c408480-f058-11ea-8227-f4482cd0bf93.png)  |  ![](https://user-images.githubusercontent.com/55665104/92323672-2c586400-f058-11ea-9be0-d1a986a3ed78.png)
+![](https://user-images.githubusercontent.com/55665104/92324056-9f170e80-f05b-11ea-8994-e0b38f45f776.png)  |  ![](https://user-images.githubusercontent.com/55665104/92323672-2c586400-f058-11ea-9be0-d1a986a3ed78.png)
 
 
 
