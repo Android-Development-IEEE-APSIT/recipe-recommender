@@ -12,6 +12,13 @@ Recipes will be recommended according to the ingredients chosen by user in the a
 - [ ] Shopping List Layout
 - [ ] Favourite Recipes Layout
 
+# TO-DO
+
+- [ ] Linking the layout pages
+- [ ] ML Model
+- [ ] MYSQL Database Connection 
+- [ ] Collection of recipes for database
+
 
 # SCREENSHORTS
 
@@ -32,11 +39,4 @@ Basket Layout            |  Pantry Layout
 :-------------------------:|:-------------------------:
 ![](https://user-images.githubusercontent.com/55665104/92323675-3f6b3400-f058-11ea-8d78-de4eecddc465.png)  |  ![](https://user-images.githubusercontent.com/55665104/92323677-4134f780-f058-11ea-9785-df243f27fa74.png)
 
-
-# TO-DO
-
-- [ ] Linking the layout pages
-- [ ] ML Model
-- [ ] MYSQL Database Connection 
-- [ ] Collection of recipes for database
 
