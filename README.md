@@ -24,7 +24,7 @@ Recipe Display             |  Recipe Display
 
 Recipe Display             |  Recipe List Display
 :-------------------------:|:-------------------------:
-![](https://user-images.githubusercontent.com/55665104/92323673-2febeb00-f058-11ea-9bc4-36151464e1b3.png)  |  ![](https://user-images.githubusercontent.com/55665104/92323674-3e3a0700-f058-11ea-8e8c-3a722bbba82a.png)
+![](https://user-images.githubusercontent.com/55665104/92323673-2febeb00-f058-11ea-9bc4-36151464e1b3.png)  |  ![](https://user-images.githubusercontent.com/55665104/92324005-0a141580-f05b-11ea-806a-564c1eb8deea.png)
 
 
 
