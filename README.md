@@ -1,10 +1,10 @@
-## RECIPE-RECOMMENDER
+# RECIPE-RECOMMENDER
 
 The goal of this project is to use the largest publicly available collection of recipe data to build a recommendation system for ingredients and recipes.
 Recipes will be recommended according to the ingredients chosen by user in the application were most of the option from your pantry will be present.This will be done with the help of ML Model. Required data for the project will be saved in SQL database.  
 
 
-# LAYOUTS
+## LAYOUTS
 - [X] Pantry Layout
 - [X] Recipes List Layout
 - [X] Basket Layout
@@ -12,7 +12,7 @@ Recipes will be recommended according to the ingredients chosen by user in the a
 - [ ] Shopping List Layout
 - [ ] Favourite Recipes Layout
 
-# TO-DO
+## TO-DO
 
 - [ ] Linking the layout pages
 - [ ] ML Model
@@ -20,7 +20,7 @@ Recipes will be recommended according to the ingredients chosen by user in the a
 - [ ] Collection of recipes for database
 
 
-# SCREENSHORTS
+## SCREENSHORTS
 
 
 Recipe Display             |  Recipe Display
