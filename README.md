@@ -9,8 +9,8 @@ Recipes will be recommended according to the ingredients chosen by user in the a
 - [X] Recipes List Layout
 - [X] Basket Layout
 - [X] Main Recipe Display Layout
+- [X] Favourite Recipes Layout
 - [ ] Shopping List Layout
-- [ ] Favourite Recipes Layout
 
 ## TO-DO
 
@@ -19,7 +19,7 @@ Recipes will be recommended according to the ingredients chosen by user in the a
 - [ ] Collection of recipes for database
 
 
-## SCREENSHORTS
+## SCREENSHORTS AND RECORDINGS
 
 
 Recipe Display             |  Recipe Display
@@ -28,13 +28,13 @@ Recipe Display             |  Recipe Display
 
 
 
-Recipe Display             |  Recipe List Display
+Recipe Display             |  Pantry Display
 :-------------------------:|:-------------------------:
 ![](https://user-images.githubusercontent.com/55665104/92323673-2febeb00-f058-11ea-9bc4-36151464e1b3.png)  |  ![](https://user-images.githubusercontent.com/55665104/92376190-d6e78a00-f11f-11ea-9e0c-6948e0955784.gif)
 
 
 
-Basket Layout            |  Pantry Layout
+Basket Layout            |  Recipe List Display
 :-------------------------:|:-------------------------:
 ![](https://user-images.githubusercontent.com/55665104/92323675-3f6b3400-f058-11ea-8d78-de4eecddc465.png)  |  ![](https://user-images.githubusercontent.com/55665104/92376226-e535a600-f11f-11ea-8a39-fb61789c4800.gif)
 
