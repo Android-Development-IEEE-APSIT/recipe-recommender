@@ -32,6 +32,9 @@ public class ResetPasswordActivity extends AppCompatActivity {
         progressBar = (ProgressBar) findViewById(R.id.progressBar);
 
         auth = FirebaseAuth.getInstance();
+        if (auth.getCurrentUser() != null) {
+            // User is logged in
+        }
 
         btnBack.setOnClickListener(new View.OnClickListener() {
             @Override
