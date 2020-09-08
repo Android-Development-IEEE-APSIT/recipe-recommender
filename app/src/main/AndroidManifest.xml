@@ -15,6 +15,8 @@
         <activity android:name=".recipe_display"></activity>
         <activity android:name=".Basket"></activity>
         <activity android:name=".SignupActivity"></activity>
+        <activity android:name=".LoginActivity"></activity>
+        <activity android:name=".ResetPasswordActivity"></activity>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
