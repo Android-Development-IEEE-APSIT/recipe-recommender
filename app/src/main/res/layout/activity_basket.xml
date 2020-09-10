@@ -53,17 +53,11 @@
 
         <SearchView
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:iconifiedByDefault="false">
 
 
-            <EditText
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:hint="SEARCH PRODUCTS"
-                tools:layout_editor_absoluteX="230dp"
-                tools:layout_editor_absoluteY="342dp">
 
-            </EditText>
         </SearchView>
 
     </androidx.cardview.widget.CardView>

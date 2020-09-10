@@ -47,7 +47,8 @@
                 android:layout_height="match_parent"
                 app:cardCornerRadius="20sp"
                 app:cardElevation="20sp"
-                android:layout_margin="10dp">
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="@color/white">
 
                 <SearchView
                     android:layout_width="match_parent"
@@ -62,15 +63,16 @@
             <HorizontalScrollView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:scrollbars="none"
                 android:layout_margin="20dp">
 
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal">
-                    
-                    
-                    
+
+
+
                     <RelativeLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content">
@@ -1063,9 +1065,7 @@
                 android:layout_margin="20dp"
                 app:cardCornerRadius="20sp"
                 app:cardElevation="20sp"
-                android:layout_gravity="center"
-
-                >
+                android:layout_gravity="center">
 
 
                 <androidx.cardview.widget.CardView
@@ -1118,13 +1118,13 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginLeft="30dp"
                 android:layout_marginRight="40dp"
-                app:cardBackgroundColor="@color/purple"
+                app:cardBackgroundColor="@color/yellow"
                 android:layout_marginBottom="10dp">
 
                 <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textColor="@color/white"
+                android:textColor="@color/black"
                 android:text="SEARCH RECIPES"
                 android:textSize="20dp"
                 android:layout_gravity="center"
