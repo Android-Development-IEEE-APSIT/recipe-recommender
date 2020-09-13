@@ -10,7 +10,8 @@ Recipes will be recommended according to the ingredients chosen by user in the a
 - [X] Basket Layout
 - [X] Main Recipe Display Layout
 - [X] Favourite Recipes Layout
-- [ ] Shopping List Layout
+- [X] Shopping List Layout
+- [ ]Side Navigation
 
 ## TO-DO
 
