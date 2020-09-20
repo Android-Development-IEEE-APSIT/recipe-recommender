@@ -5,27 +5,27 @@
     <group android:checkableBehavior="single">
 
 
-        <item android:id="@+id/b1"
+        <item android:id="@+id/b1_pantry"
             android:title="PANTRY">
         </item>
 
-        <item android:id="@+id/b2"
+        <item android:id="@+id/b2_basket"
             android:title="BASKET">
         </item>
 
-        <item android:id="@+id/b3"
+        <item android:id="@+id/b3_list"
             android:title="SHOPPING LIST">
         </item>
 
-        <item android:id="@+id/b4"
+        <item android:id="@+id/b4_favourite"
             android:title="FAVOURITE RECIPES">
         </item>
 
-        <item android:id="@+id/b5"
+        <item android:id="@+id/b5_settings"
             android:title="SETTINGS">
         </item>
 
-        <item android:id="@+id/b6"
+        <item android:id="@+id/b6_logout"
             android:title="LOG OUT">
         </item>
 

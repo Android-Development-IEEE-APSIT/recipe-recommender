@@ -37,6 +37,7 @@
             android:orientation="horizontal">
 
         <ImageButton
+            android:id="@+id/side_nave"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/ic_baseline_menu_24"
@@ -92,11 +93,11 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/searchView2">
 
-        <GridLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:columnCount="1"
-            android:scrollbars="vertical">
+<!--        <GridLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:columnCount="1"-->
+<!--            android:scrollbars="vertical">-->
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
@@ -556,7 +557,7 @@
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 
-        </GridLayout>
+<!--        </GridLayout>-->
 
     </ScrollView>
 

@@ -11,7 +11,7 @@ Recipes will be recommended according to the ingredients chosen by user in the a
 - [X] Main Recipe Display Layout
 - [X] Favourite Recipes Layout
 - [X] Shopping List Layout
-- [ ]Side Navigation
+- [ ] Side Navigation
 
 ## TO-DO
 
