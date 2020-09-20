@@ -3,7 +3,10 @@ package com.aaditya.reciperecommender
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.Gravity
 import android.view.MenuItem
+import android.widget.ImageButton
+import androidx.drawerlayout.widget.DrawerLayout
 import com.google.android.material.navigation.NavigationView
 
 class favourite_recipes : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener {
@@ -13,6 +16,12 @@ class favourite_recipes : AppCompatActivity(), NavigationView.OnNavigationItemSe
 
         val navigationView: NavigationView = findViewById(R.id.nav_view)
         navigationView.setNavigationItemSelectedListener(this)
+
+        val side_btn = findViewById(R.id.side_nave) as ImageButton
+        side_btn.setOnClickListener{
+            val navDrawer: DrawerLayout = findViewById(R.id.fav_recipes)
+            navDrawer.openDrawer(Gravity.LEFT);
+        }
     }
 
     override fun onNavigationItemSelected(item: MenuItem): Boolean {

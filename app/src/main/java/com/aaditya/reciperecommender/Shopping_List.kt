@@ -2,13 +2,16 @@ package com.aaditya.reciperecommender
 
 import android.content.Intent
 import android.os.Bundle
+import android.view.Gravity
 import android.view.MenuItem
 import android.view.View
 import android.widget.ArrayAdapter
 import android.widget.EditText
+import android.widget.ImageButton
 import android.widget.ListView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.cardview.widget.CardView
+import androidx.drawerlayout.widget.DrawerLayout
 import com.google.android.material.navigation.NavigationView
 import kotlinx.android.synthetic.main.activity_shopping__list.*
 
@@ -43,6 +46,12 @@ class Shopping_List : AppCompatActivity(), NavigationView.OnNavigationItemSelect
 
         val navigationView: NavigationView = findViewById(R.id.nav_view)
         navigationView.setNavigationItemSelectedListener(this)
+
+        val side_btn = findViewById(R.id.side_nave) as ImageButton
+        side_btn.setOnClickListener{
+            val navDrawer: DrawerLayout = findViewById(R.id.shopping_list)
+            navDrawer.openDrawer(Gravity.LEFT);
+        }
 
     }
 
