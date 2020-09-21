@@ -34,7 +34,7 @@ class pantry : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListe
 
         val see_list = findViewById(R.id.see_list) as CardView
 
-        search_recipes.setOnClickListener {
+        see_list.setOnClickListener {
             val intent = Intent(this, Basket::class.java)
             startActivity(intent)
 
