@@ -36,7 +36,7 @@ class Basket : AppCompatActivity() ,NavigationView.OnNavigationItemSelectedListe
             R.id.b3_list -> startActivity(Intent(this,Shopping_List::class.java))
             R.id.b4_favourite -> startActivity(Intent(this,favourite_recipes::class.java))
             R.id.b5_settings -> startActivity(Intent(this,MainActivity::class.java))
-//            R.id.b6_logout ->
+
         }
 //        drawer.closeDrawer(GravityCompat.START)
         return true

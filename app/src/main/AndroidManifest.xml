@@ -13,24 +13,32 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
         <activity android:name=".Splash_screen">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity android:name=".Shopping_List" />
         <activity android:name=".pantry" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
 
         </activity>
-        <activity android:name=".recipe_display" ></activity>
+        <activity android:name=".recipe_display" >
+
+        </activity>
         <activity android:name=".Basket" />
         <activity android:name=".SignupActivity" />
         <activity android:name=".LoginActivity" />
         <activity android:name=".ResetPasswordActivity" />
-        <activity android:name=".MainActivity" />
-        <activity android:name=".favourite_recipes"/>
-        <activity android:name=".recipe_list"/>
+        <activity android:name=".MainActivity" >
+
+        </activity>
+        <activity android:name=".favourite_recipes">
+
+        </activity>
+        <activity android:name=".recipe_list">
+
+        </activity>
 
         <meta-data
             android:name="preloaded_fonts"
