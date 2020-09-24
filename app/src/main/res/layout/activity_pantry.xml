@@ -15,8 +15,6 @@
         android:layout_height="match_parent">
 
 
-
-
         <androidx.core.widget.NestedScrollView
             android:layout_width="match_parent"
             android:layout_height="match_parent">
@@ -1182,4 +1180,5 @@
         android:background="@color/yellow"
         app:itemTextColor="@color/black">
     </com.google.android.material.navigation.NavigationView>
+
 </androidx.drawerlayout.widget.DrawerLayout>

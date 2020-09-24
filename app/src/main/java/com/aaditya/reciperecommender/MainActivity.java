@@ -2,23 +2,30 @@ package com.aaditya.reciperecommender;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.Gravity;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.ProgressBar;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.view.GravityCompat;
+import androidx.drawerlayout.widget.DrawerLayout;
 
 import com.google.android.gms.auth.api.signin.GoogleSignIn;
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
+import com.google.android.material.navigation.NavigationView;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 
-public class MainActivity extends AppCompatActivity {
+
+public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
     private Button btnChangeEmail, btnChangePassword, btnSendResetEmail, btnRemoveUser,
             changeEmail, changePassword, sendEmail, remove, signOut;
 
@@ -26,6 +33,9 @@ public class MainActivity extends AppCompatActivity {
     private ProgressBar progressBar;
     private FirebaseAuth.AuthStateListener authListener;
     private FirebaseAuth auth;
+     ImageButton side_nav;
+     DrawerLayout nav_drawer;
+
 
     //sign out method
     public void signOut() {
@@ -58,6 +68,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        setNavigationViewListner();
 
 //        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
 //        toolbar.setTitle(getString(R.string.app_name));
@@ -267,5 +279,53 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        //side navigation
+
+        side_nav = findViewById(R.id.side_nave);
+        nav_drawer = findViewById(R.id.settings);
+
+        side_nav.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                nav_drawer.openDrawer(Gravity.LEFT);
+            }
+        });
+
     }
+
+    private void setNavigationViewListner() {
+        NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
+    }
+
+
+    @Override
+    public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+
+        switch (item.getItemId()) {
+
+            case R.id.b1_pantry: {
+                Intent intent= new Intent(this,pantry.class);
+                startActivity(intent);
+                break;
+            }
+            case  R.id.b2_basket: {
+                Intent intent= new Intent(MainActivity.this,Basket.class);
+                startActivity(intent);
+                break;
+            }
+            case R.id.b3_list: {
+                Intent intent= new Intent(MainActivity.this,Shopping_List.class);
+                startActivity(intent);
+                break;
+            }
+            case R.id.b4_favourite:{
+                Intent intent= new Intent(MainActivity.this,favourite_recipes.class);
+                startActivity(intent);
+                break;
+            }
+        }
+
+        return true;
+    }
+
 }

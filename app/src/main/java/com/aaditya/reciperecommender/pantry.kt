@@ -1,22 +1,31 @@
 package com.aaditya.reciperecommender
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Gravity
 import android.view.MenuItem
-import android.widget.Button
 import android.widget.ImageButton
-import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import androidx.cardview.widget.CardView
-import androidx.core.view.GravityCompat
 import androidx.drawerlayout.widget.DrawerLayout
 import com.google.android.material.navigation.NavigationView
+import com.google.firebase.auth.FirebaseAuth
+
+
 
 class pantry : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener {
+
+    //private var auth: FirebaseAuth? = null
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
+        //auth = FirebaseAuth.getInstance();
+
         setContentView(R.layout.activity_pantry)
+
+
+
 
 //        val open_side_nav = findViewById(R.id.side_nave) as ImageButton
 //        open_side_nav.setOnClickListener{
@@ -59,7 +68,10 @@ class pantry : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListe
             R.id.b3_list -> startActivity(Intent(this,Shopping_List::class.java))
             R.id.b4_favourite -> startActivity(Intent(this,favourite_recipes::class.java))
             R.id.b5_settings -> startActivity(Intent(this,MainActivity::class.java))
-//            R.id.b6_logout ->
+            /*R.id.b6_logout -> {
+                auth?.signOut();
+                startActivity(Intent(this,LoginActivity::class.java))
+            }*/
         }
 //        drawer.closeDrawer(GravityCompat.START)
         return true
