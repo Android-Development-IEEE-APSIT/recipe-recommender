@@ -69,7 +69,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        setNavigationViewListner();
+        setNavigationViewListener();
 
 //        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
 //        toolbar.setTitle(getString(R.string.app_name));
@@ -291,9 +291,15 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             }
         });
 
+
+        NavigationView navigationView = findViewById(R.id.nav_view);
+        navigationView.setNavigationItemSelectedListener(this);
+
     }
 
-    private void setNavigationViewListner() {
+
+
+    private void setNavigationViewListener() {
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
     }
 
@@ -309,17 +315,17 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 break;
             }
             case  R.id.b2_basket: {
-                Intent intent= new Intent(MainActivity.this,Basket.class);
+                Intent intent= new Intent(this,Basket.class);
                 startActivity(intent);
                 break;
             }
             case R.id.b3_list: {
-                Intent intent= new Intent(MainActivity.this,Shopping_List.class);
+                Intent intent= new Intent(this,Shopping_List.class);
                 startActivity(intent);
                 break;
             }
             case R.id.b4_favourite:{
-                Intent intent= new Intent(MainActivity.this,favourite_recipes.class);
+                Intent intent= new Intent(this,favourite_recipes.class);
                 startActivity(intent);
                 break;
             }
