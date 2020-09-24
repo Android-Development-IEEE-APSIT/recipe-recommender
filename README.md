@@ -11,12 +11,16 @@ Recipes will be recommended according to the ingredients chosen by user in the a
 - [X] Main Recipe Display Layout
 - [X] Favourite Recipes Layout
 - [X] Shopping List Layout
-- [ ] Side Navigation
+- [X] Side Navigation
+- [X] Sign Out Layout
+- [X] Sign In Layout
+- [X] Setting Layout
 
 ## TO-DO
 
-- [ ] Linking the layout pages
+- [X] Linking the layout pages
 - [ ] MYSQL Database Connection 
+- [ ] Firebase database Connection
 - [ ] Collection of recipes for database
 
 
@@ -35,14 +39,14 @@ Recipe Display             |  Pantry Display
 
 
 
-Basket Layout            |  Favourite List Display
+Basket Layout              |  Favourite List Display
 :-------------------------:|:-------------------------:
 ![](https://user-images.githubusercontent.com/55665104/92323675-3f6b3400-f058-11ea-8d78-de4eecddc465.png)  |  ![](https://user-images.githubusercontent.com/55665104/92376226-e535a600-f11f-11ea-8a39-fb61789c4800.gif)
 
 
-Recipe List Display           |  
+Recipe List Display        |  Side Navigation
 :-------------------------:|:-------------------------:
-![](https://user-images.githubusercontent.com/55665104/92378240-211e3a80-f123-11ea-8d76-b401a27066c9.png)  |  
+![](https://user-images.githubusercontent.com/55665104/92378240-211e3a80-f123-11ea-8d76-b401a27066c9.png)  |  ![](https://user-images.githubusercontent.com/55665104/94164445-adac5500-fea6-11ea-86e9-b7473d51a867.png)
 
 
 
