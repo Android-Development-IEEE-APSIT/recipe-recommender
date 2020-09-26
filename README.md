@@ -1,8 +1,7 @@
 # RECIPE-RECOMMENDER
 
 The goal of this project is to use the largest publicly available collection of recipe data to build a recommendation system for ingredients and recipes.
-Recipes will be recommended according to the ingredients chosen by user in the application were most of the option from your pantry will be present.This will be done with the help of ML Model. Required data for the project will be saved in SQL database.  
-
+Recipes will be recommended according to the ingredients chosen by user in the application were most of the option from your pantry will be present.The login and favourite recipes data will be stored in local database. All the other information will be in firbase realtime database. The recipes will be displayed after sorting through database. 
 
 ## LAYOUTS
 - [X] Pantry Layout
