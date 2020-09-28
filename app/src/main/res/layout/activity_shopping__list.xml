@@ -14,13 +14,46 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-    <androidx.cardview.widget.CardView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:cardCornerRadius="20sp"
-        app:cardElevation="20sp"
-        android:layout_margin="15dp"
-        app:cardBackgroundColor="@color/purple">
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="20sp"
+            app:cardElevation="20sp"
+            android:layout_margin="15dp"
+            app:cardBackgroundColor="@color/purple">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/side_nave"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_baseline_menu_24"
+                    android:background="@color/purple"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="10dp">
+
+                </ImageButton>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:gravity="center_horizontal"
+                    android:text="SHOPPING LIST"
+                    android:textColor="@color/white"
+                    android:textSize="25dp">
+
+                </TextView>
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
 
 
         <LinearLayout
@@ -28,74 +61,50 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal">
 
-        <ImageButton
-            android:id="@+id/side_nave"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/ic_baseline_menu_24"
-            android:background="@color/purple"
-            android:layout_marginTop="5dp"
-            android:layout_marginLeft="10dp">
-
-        </ImageButton>
-
-            <TextView
-                android:layout_width="match_parent"
+            <EditText
+                android:id="@+id/add_item"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_margin="10dp"
-                android:gravity="center_horizontal"
-                android:text="SHOPPING LIST"
-                android:textColor="@color/white"
-                android:textSize="25dp">
+                android:layout_weight="1"
+                android:hint="ADD TO THE LIST"/>
 
-        </TextView>
+
+
+
+                <Button
+                    android:id="@+id/add"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" ADD"
+                    android:textColor="@android:color/black"
+                    android:textSize="20dp"
+                    android:background="@drawable/rounded_corner_yellow"
+                    android:layout_margin="10dp">
+
+                </Button>
+
 
 
         </LinearLayout>
 
-    </androidx.cardview.widget.CardView>
+        <ListView
+            android:id="@+id/list"
+            android:layout_width="match_parent"
+            android:layout_height="550dp"
+            android:choiceMode="multipleChoice">
+        </ListView>
 
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-
-        <EditText
-            android:id="@+id/add_item"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:hint="ADD TO THE LIST"/>
-
-
-        <androidx.cardview.widget.CardView
-            android:id="@+id/add"
+        <Button
+            android:id="@+id/delete_items"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:cardCornerRadius="20sp"
-            app:cardElevation="20sp"
-            app:cardBackgroundColor="@color/yellow">
+            android:layout_gravity="center_horizontal"
+            android:text="   DELETE ITEMS   "
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:background="@drawable/rounded_corner">
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="ADD ITEM"
-                android:textColor="@android:color/black"
-                android:textSize="20dp"
-                android:layout_margin="10dp">
-
-            </TextView>
-
-        </androidx.cardview.widget.CardView>
-
-    </LinearLayout>
-
-        <ListView
-        android:id="@+id/list"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-        </ListView>
+        </Button>
 
 
     </LinearLayout>
@@ -115,4 +124,3 @@
 
 
 </androidx.drawerlayout.widget.DrawerLayout>
-

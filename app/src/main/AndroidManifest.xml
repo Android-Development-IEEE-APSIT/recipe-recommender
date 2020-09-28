@@ -15,19 +15,23 @@
         <activity android:name=".Splash_screen">
 
         </activity>
-        <activity android:name=".Shopping_List" />
+        <activity android:name=".Shopping_List" >
+
+        </activity>
         <activity android:name=".pantry" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+
 
         </activity>
         <activity android:name=".recipe_display" >
 
         </activity>
         <activity android:name=".Basket" />
-        <activity android:name=".SignupActivity" />
+        <activity android:name=".SignupActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity android:name=".LoginActivity" />
         <activity android:name=".ResetPasswordActivity" />
         <activity android:name=".MainActivity" >

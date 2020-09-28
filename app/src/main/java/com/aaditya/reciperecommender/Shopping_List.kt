@@ -5,10 +5,7 @@ import android.os.Bundle
 import android.view.Gravity
 import android.view.MenuItem
 import android.view.View
-import android.widget.ArrayAdapter
-import android.widget.EditText
-import android.widget.ImageButton
-import android.widget.ListView
+import android.widget.*
 import androidx.appcompat.app.AppCompatActivity
 import androidx.cardview.widget.CardView
 import androidx.drawerlayout.widget.DrawerLayout
@@ -28,19 +25,19 @@ class Shopping_List : AppCompatActivity(), NavigationView.OnNavigationItemSelect
 
         val Item_name = findViewById(R.id.add_item) as EditText
         val list_view = findViewById(R.id.list) as ListView
-        val add = findViewById(R.id.add) as CardView
+        val add = findViewById(R.id.add) as Button
 
 
-        mAdapter = ArrayAdapter(this, android.R.layout.simple_list_item_1)
+        mAdapter = ArrayAdapter(this, android.R.layout.simple_list_item_multiple_choice)
         list_view.setAdapter(mAdapter)
 
 
         add.setOnClickListener {
 
-                val item: String = Item_name.getText().toString()
-                mAdapter!!.add(item)
-                mAdapter!!.notifyDataSetChanged()
-                Item_name.setText("")
+            val item: String = Item_name.getText().toString()
+            mAdapter!!.add(item)
+            mAdapter!!.notifyDataSetChanged()
+            Item_name.setText("")
 
         }
 
