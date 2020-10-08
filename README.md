@@ -1,6 +1,9 @@
 # RECIPE-RECOMMENDER
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors-)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+![GitHub repo size](https://img.shields.io/github/repo-size/IEEE-APSIT/recipe-recommender)
+![GitHub issues](https://img.shields.io/github/issues/IEEE-APSIT/recipe-recommender)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 The goal of this project is to use the largest publicly available collection of recipe data to build a recommendation system for ingredients and recipes.
@@ -74,3 +77,8 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+
+
+## LICENSE
+
+[MIT](LICENSE)
