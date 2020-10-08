@@ -1,0 +1,24 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "AadityaMuley",
+      "name": "Aaditya Muley",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/49946090?v=4",
+      "profile": "https://www.linkedin.com/in/aaditya-muley-596121184/",
+      "contributions": [
+        "projectManagement"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "recipe-recommender",
+  "projectOwner": "IEEE-APSIT",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
