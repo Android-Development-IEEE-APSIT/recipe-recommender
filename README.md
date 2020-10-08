@@ -1,4 +1,7 @@
 # RECIPE-RECOMMENDER
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 The goal of this project is to use the largest publicly available collection of recipe data to build a recommendation system for ingredients and recipes.
 Recipes will be recommended according to the ingredients chosen by user in the application were most of the option from your pantry will be present.The login and favourite recipes data will be stored in local database. All the other information will be in firbase realtime database. The recipes will be displayed after sorting through database. 
@@ -49,3 +52,22 @@ Recipe List Display        |  Side Navigation
 
 
 
+
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://www.linkedin.com/in/aaditya-muley-596121184/"><img src="https://avatars3.githubusercontent.com/u/49946090?v=4" width="100px;" alt=""/><br /><sub><b>Aaditya Muley</b></sub></a><br /><a href="#projectManagement-AadityaMuley" title="Project Management">📆</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-enable -->
+<!-- prettier-ignore-end -->
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
