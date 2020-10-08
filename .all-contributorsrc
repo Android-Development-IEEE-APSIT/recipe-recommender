@@ -24,6 +24,17 @@
         "code",
         "design"
       ]
+    },
+    {
+      "login": "nidhivanjare",
+      "name": "Nidhi Vanjare",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/55665104?v=4",
+      "profile": "https://nidhivanjare.wordpress.com/",
+      "contributions": [
+        "design",
+        "doc",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
