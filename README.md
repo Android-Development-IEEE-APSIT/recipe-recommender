@@ -62,7 +62,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="https://www.linkedin.com/in/aaditya-muley-596121184/"><img src="https://avatars3.githubusercontent.com/u/49946090?v=4" width="100px;" alt=""/><br /><sub><b>Aaditya Muley</b></sub></a><br /><a href="#projectManagement-AadityaMuley" title="Project Management">📆</a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/aaditya-muley-596121184/"><img src="https://avatars3.githubusercontent.com/u/49946090?v=4" width="100px;" alt=""/><br /><sub><b>Aaditya Muley</b></sub></a><br /><a href="#projectManagement-AadityaMuley" title="Project Management">📆</a> <a href="https://github.com/IEEE-APSIT/recipe-recommender/commits?author=AadityaMuley" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/AmrutaKoshe"><img src="https://avatars3.githubusercontent.com/u/59871941?v=4" width="100px;" alt=""/><br /><sub><b>Amruta Koshe</b></sub></a><br /><a href="https://github.com/IEEE-APSIT/recipe-recommender/commits?author=AmrutaKoshe" title="Code">💻</a> <a href="#design-AmrutaKoshe" title="Design">🎨</a></td>
   </tr>
 </table>
